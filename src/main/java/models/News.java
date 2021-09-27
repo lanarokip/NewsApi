@@ -3,12 +3,12 @@ package models;
 public class News {
     private int id;
     private String General_News;
-    private String DepartMent_News;
-    private int department;
+    private String Department_News;
+//    private int department;
 
-    public News(String general_News, String departMent_News) {
+    public News(String general_News, String department_News) {
         General_News = general_News;
-        DepartMent_News = departMent_News;
+        Department_News = department_News;
     }
 
     public int getId() {
@@ -27,11 +27,11 @@ public class News {
         General_News = general_News;
     }
 
-    public String getDepartMent_News() {
-        return DepartMent_News;
+    public String getDepartment_News() {
+        return Department_News;
     }
 
-    public void setDepartMent_News(String departMent_News) {
-        DepartMent_News = departMent_News;
+    public void setDepartment_News(String department_News) {
+        Department_News = department_News;
     }
 }
