@@ -2,12 +2,12 @@ package models;
 
 public class User {
 
-
-    private int id;
     private String position;
     private String role;
+    private int department;
+    private int id;
 
-    public User(String position, String role, String department) {
+    public User(String position, String role, int department) {
         this.position = position;
         this.role = role;
         this.department = department;
@@ -36,14 +36,13 @@ public class User {
         this.role = role;
     }
 
-    public String getDepartment() {
+    public int getDepartment() {
         return department;
     }
 
-    public void setDepartment(String department) {
+    public void setDepartment(int department) {
         this.department = department;
     }
 
-    private String department;
 
 }
