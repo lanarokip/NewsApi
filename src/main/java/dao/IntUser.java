@@ -8,7 +8,7 @@ public interface IntUser {
     //    CRUDE
     void create(User user);
     List<User> findAll();
-    User findbyId();
+    User findbyId(int id);
     void deleteAll();
     void deleteById(int id);
 }
