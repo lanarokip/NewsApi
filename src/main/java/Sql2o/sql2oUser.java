@@ -19,10 +19,11 @@ public class sql2oUser implements IntUser {
     @Override
 
     public void create(User user) {
-        String sql ="INSERT INTO user(position,role,department) VALUES (:position,:role,:department)";
+        String sql ="INSERT INTO user(position,role) VALUES (:position,:role)";
         try(Connection con = sql2o.open()){
             int id = (int) con.createQuery(sql,true)
                     .bind(user)
+                    .throwOnMappingFailure(false)
                     .executeUpdate()
                     .getKey();
             user.setId(id);

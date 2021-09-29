@@ -2,7 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="274e20b2-f919-49f7-beb3-863f88770d9e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Sql2o/sql2oNewsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Sql2o/sql2oUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Sql2o/sql2oDepartments.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Sql2o/sql2oDepartments.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Sql2o/sql2oUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Sql2o/sql2oUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/dao/IntDepartments.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/dao/IntDepartments.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/models/Departments.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/models/Departments.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/models/News.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/models/News.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/models/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/models/DepartmentsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/models/DepartmentsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/models/UserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/models/UserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/models.DepartmentsTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/models.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/db/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/db/create.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-models.DepartmentsTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sql2o/sql2oDepartments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sql2o/sql2oDepartments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sql2o/sql2oNews.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sql2o/sql2oNews.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sql2o/sql2oUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sql2o/sql2oUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/IntDepartments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/IntDepartments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Departments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Departments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/News.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/News.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/create.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/models/DepartmentsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/DepartmentsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/models/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/UserTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,8 +77,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -55,6 +98,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Sql2o" />
       <recent name="models" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -84,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DepartmentsTest.depertment_instantiates_correctly" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="sql2oUserTest.addedUserCanBeREturned" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;models.DepartmentsTest.depertment_instantiates_correctly&quot;" />
+        <option name="scriptParameters" value="--tests &quot;Sql2o.sql2oUserTest.addedUserCanBeREturned&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -104,12 +148,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="DepartmentsTest.input_correctly_4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="sql2oUserTest.adding_setids" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;models.DepartmentsTest.input_correctly_4&quot;" />
+        <option name="scriptParameters" value="--tests &quot;Sql2o.sql2oUserTest.adding_setids&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -124,12 +168,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="UserTest.gets_the_id" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="sql2oUserTest.existingUserscanBeFound" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;models.UserTest.gets_the_id&quot;" />
+        <option name="scriptParameters" value="--tests &quot;Sql2o.sql2oUserTest.existingUserscanBeFound&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -144,12 +188,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="UserTest.instntiastes_correctly" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="sql2oUserTest.nousersReturned" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;models.UserTest.instntiastes_correctly&quot;" />
+        <option name="scriptParameters" value="--tests &quot;Sql2o.sql2oUserTest.nousersReturned&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -167,10 +211,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.App" />
-        <item itemvalue="Gradle.DepartmentsTest.depertment_instantiates_correctly" />
-        <item itemvalue="Gradle.DepartmentsTest.input_correctly_4" />
-        <item itemvalue="Gradle.UserTest.gets_the_id" />
-        <item itemvalue="Gradle.UserTest.instntiastes_correctly" />
+        <item itemvalue="Gradle.sql2oUserTest.adding_setids" />
+        <item itemvalue="Gradle.sql2oUserTest.existingUserscanBeFound" />
+        <item itemvalue="Gradle.sql2oUserTest.nousersReturned" />
+        <item itemvalue="Gradle.sql2oUserTest.addedUserCanBeREturned" />
       </list>
     </recent_temporary>
   </component>
@@ -192,10 +236,26 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/models/DepartmentsTest.java</url>
+          <line>15</line>
+          <properties class="models.DepartmentsTest" method="input_correctly_4">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

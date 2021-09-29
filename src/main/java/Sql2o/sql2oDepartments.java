@@ -1,6 +1,7 @@
 package Sql2o;
 import dao.IntDepartments;
 import models.Departments;
+import models.News;
 import org.sql2o.Connection;
 import org.sql2o.Sql2o;
 import org.sql2o.Sql2oException;
@@ -17,10 +18,11 @@ public class sql2oDepartments implements IntDepartments {
 
     @Override
     public void create(Departments departments) {
-        String sql = "INSERT INTO departments (departmentName,NoWorkers) VALUES(:departmentName,:NoWorkers)";
+        String sql = "INSERT INTO departments (departmentName) VALUES(:departmentName)";
         try(Connection con = sql2o.open()){
             int id = (int) con.createQuery(sql,true)
                     .bind(departments)
+                    .throwOnMappingFailure(false)
                     .executeUpdate()
                     .getKey();
             departments.setid(id);
@@ -30,11 +32,21 @@ public class sql2oDepartments implements IntDepartments {
     }
 
     @Override
+    public void addNewsToDepartments(Departments departments, News news) {
+
+    }
+
+    @Override
     public List<Departments> findAll() {
         try(Connection con = sql2o.open()){
             return con.createQuery("SELECT * FROM departments")
                     .executeAndFetch(Departments.class);
         }
+    }
+
+    @Override
+    public List<News> getAllNewsByDepartments(int departmentId) {
+        return null;
     }
 
     @Override

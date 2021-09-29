@@ -37,6 +37,10 @@ public class App {
             res.type("application/json");
             return gson.toJson(department1);
         });
+        get("/department", "application/json", (req, res) -> {
+            res.type("application/json");
+            return gson.toJson(departments.findAll());
+        });
 
         post("/news/new", "application/json", (req, res) -> {
             News news = gson.fromJson(req.body(), News.class);
@@ -45,6 +49,10 @@ public class App {
             res.type("application/json");
             return gson.toJson(news);
         });
+        get("/news", "application/json", (req, res) -> {
+            res.type("application/json");
+            return gson.toJson(sql2oNew.findAll());
+        });
 
         post("/users/new", "application/json", (req, res) -> {
             User user = gson.fromJson(req.body(), User.class);
@@ -52,6 +60,10 @@ public class App {
             res.status(201);
             res.type("application/json");
             return gson.toJson(user);
+        });
+        get("/users", "application/json", (req, res) -> {
+            res.type("application/json");
+            return gson.toJson(sql2ouser.findAll());
         });
 
 

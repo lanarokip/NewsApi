@@ -1,11 +1,13 @@
 package Sql2o;
 
 import dao.IntNews;
+import models.Departments;
 import models.News;
 import org.sql2o.Connection;
 import org.sql2o.Sql2o;
 import org.sql2o.Sql2oException;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class sql2oNews implements IntNews {
@@ -18,10 +20,11 @@ public class sql2oNews implements IntNews {
 
     @Override
     public void create(News news) {
-        String sql = "INSERT INTO news(general_News,department_News) VALUES (:general_News,:department_news)";
+        String sql = "INSERT INTO news(general_News,department_News) VALUES (:general_News,:department_News)";
         try (Connection con = sql2o.open()) {
             int id = (int) con.createQuery(sql, true)
                     .bind(news)
+                    .throwOnMappingFailure(false)
                     .executeUpdate()
                     .getKey();
             news.setId(id);
@@ -31,6 +34,7 @@ public class sql2oNews implements IntNews {
         }
     }
 
+
     @Override
     public List<News> findAll() {
         try( Connection con = sql2o.open()) {
@@ -38,6 +42,15 @@ public class sql2oNews implements IntNews {
                     .executeAndFetch(News.class);
         }
     }
+
+    public Sql2o getSql2o() {
+        return sql2o;
+    }
+
+//    @Override
+//    public List<Departments> getallDepartmentNews(int id) {
+//        return null;
+//    }
 
     @Override
     public News findbyId(int id) {
